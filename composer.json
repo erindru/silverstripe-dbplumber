@@ -1,0 +1,16 @@
+{
+	"name": "smindel/silverstripe-dbplumber",
+	"description": "This module provides tools to manage the database that drives your SilverStripe installation. It is not as powerful as phpMyAdmin but it is very lightweight and works with all supported database adapters: MySQL, MSSQL, Postgres and SQLite",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "dbplumber"],
+	"authors": [
+		{
+			"name": "Andreas Piening",
+			"email": "ap@internetrix.de"
+		}
+	],
+	"require": {
+		"silverstripe/framework": ">=2.4",
+		"composer/installers": "*"
+	}
+}
